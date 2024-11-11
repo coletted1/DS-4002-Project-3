@@ -6,6 +6,29 @@
 
 ### Project Folder Strcutre:
 
+```
+DS-4002-Project-3/
+│
+├── DATA/
+│   ├── 
+│   └── 
+│
+├── OUTPUT/
+│   ├── Analysis/
+│   │   ├── Model Evaluation/
+│   │   │   ├── 
+│   │   │   └── 
+│   │   ├── Exploratory/
+│   │   │   ├── 
+│           └── 
+├── SCRIPTS/
+│   ├── 
+│   └── 
+│  
+├── LICENSE.md
+└── README.md
+```
+
 - **DATA/**:
 - **OUTPUT/**:
 - **SCRIPTS/**:
