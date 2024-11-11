@@ -2,6 +2,10 @@
 
 ## Section 1 - Software & Platform
 
+The main software used for this project includes VS Code with Python. We used ...
+
+Most coding was performed on a Windows machine, with some portions done using a Mac.
+
 ## Section 2 - Map of Documentation
 
 ### Project Folder Strcutre:
@@ -29,16 +33,16 @@ DS-4002-Project-3/
 └── README.md
 ```
 
-- **DATA/**:
+- **DATA/**: Contains the various CSV files used throughout the project, including the initial, cleaned, and differenced datasets.
 - **OUTPUT/**:
-- **SCRIPTS/**:
+- **SCRIPTS/**: Python scripts used in the project:
 
 ## Section 3 - Instructions for reproducing results
 
 Follow the steps below to reproduce the results of this project: 
 ### Step 1 : Dataset Collection 
 
-### Step 2 : Pre - Process imaages 
+### Step 2 : Pre - Process images 
 
 ### Step 3 : Build and Train Model
 
