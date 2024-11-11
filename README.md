@@ -19,16 +19,16 @@ DS-4002-Project-3/
 │
 ├── OUTPUT/
 │   ├── Analysis/
-│   │   ├── Model Evaluation/
-│   │   │   ├── 
-│   │   │   └── 
-│   │   ├── Exploratory/
-│   │   │   ├── 
-│           └── 
+│   │   ├── 
+│   │   └── 
+│   └── Exploratory/
+│       ├── 
+│       └── 
+│
 ├── SCRIPTS/
 │   ├── 
 │   └── 
-│  
+│
 ├── LICENSE.md
 └── README.md
 ```
