@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 data_dir = "data"
-output_dir = "output"
+output_dir = "output/exploratory"
 os.makedirs(output_dir, exist_ok=True)
 
 fruit_types = ["banana", "lemon", "lulo", "mango", "orange", "strawberry", "tamarillo", "tomato"]
