@@ -1,10 +1,8 @@
-import cv2
+import cv2 #install using pip install opencv-python==4.5.5.64
 import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Directory structure: "data/{fruit_type}/{freshness}/{image}.jpg"
-# Example: data/banana/fresh/1.jpg, data/banana/spoiled/2.jpg
 data_dir = "data"
 output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
