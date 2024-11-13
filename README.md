@@ -14,19 +14,47 @@ Most coding was performed on a Windows machine, with some portions done using a 
 DS-4002-Project-3/
 │
 ├── DATA/
-│   ├── 
-│   └── 
+│   ├── banana
+│   │   ├── fresh
+│   │   └── spoiled
+│   ├── lemon
+│   │   ├── fresh
+│   │   └── spoiled
+│   ├── lulo
+│   │   ├── fresh
+│   │   └── spoiled
+│   ├── mango
+│   │   ├── fresh
+│   │   └── spoiled
+│   ├── orange
+│   │   ├── fresh
+│   │   └── spoiled
+│   ├── strawberry
+│   │   ├── fresh
+│   │   └── spoiled
+│   ├── tamarillo
+│   │   ├── fresh
+│   │   └── spoiled
+│   └── tomato
+│       ├── fresh
+│       └── spoiled
 │
 ├── OUTPUT/
 │   ├── Analysis/
 │   │   ├── 
 │   │   └── 
 │   └── Exploratory/
-│       ├── 
-│       └── 
+│       ├── banana_average_color_histogram.png
+│       ├── lemon_average_color_histogram.png
+│       ├── lulo_average_color_histogram.png
+│       ├── mango_average_color_histogram.png
+│       ├── orange_average_color_histogram.png
+│       ├── strawberry_average_color_histogram.png
+│       ├── tamarillo_average_color_histogram.png
+│       └── tomato_average_color_histogram.png
 │
 ├── SCRIPTS/
-│   ├── 
+│   ├── ExploratoryPlot.py
 │   └── 
 │
 ├── LICENSE.md
