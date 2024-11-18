@@ -79,7 +79,7 @@ Follow the steps below to reproduce the results of this project:
 
 ### Step 3 : Pre-Process Images
 
-## Step 4 : Build and Train Model
+### Step 4 : Build and Train Model
 
 ### Step 5 : Evaluate Model
 
