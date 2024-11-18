@@ -77,6 +77,7 @@ Follow the steps below to reproduce the results of this project:
 - Download the images from each of the fruit categories, and then depending on the fruit presented in the image, place the downloaded image files in the DATA/ folder of the project in their own respective file. The images given in the dataset are pre-sorted based on fruit type, and if they were classified as being fresh or spoiled.
 
 ### Step 2 : Exploratory Data Analysis 
+- To observe initial trends in the data, run the **1-ExploratoryPlot.py** script. This will output various histograms for early data analysis, including information on the color intensity distribution for both fresh and spoiled fruit across the different fruit types.
 
 ### Step 3 : Pre-Process Images
 
