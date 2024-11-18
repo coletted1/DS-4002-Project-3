@@ -2,7 +2,7 @@
 
 ## Section 1 - Software & Platform
 
-The main software used for this project includes VS Code with Python. We used ...
+The main software used for this project includes VS Code with Python. We used Python's PyTorch and TensorFlow libraries, an image based system used to build and train models for image based recognition and model optimization. 
 
 Most coding was performed on a Windows machine, with some portions done using a Mac.
 
@@ -61,9 +61,12 @@ DS-4002-Project-3/
 └── README.md
 ```
 
-- **DATA/**: Contains the various CSV files used throughout the project, including the initial, cleaned, and differenced datasets.
+- **DATA/**: Contains the various image files used throughout the project, including the images sorted based on fruit type, and on a predetermined freshness level.
 - **OUTPUT/**:
+  - **Exploratory/**: Contains exploratory plots for each of the fruits based on color intensity from the fresh and spoiled fruits for initial data trends.
+    
 - **SCRIPTS/**: Python scripts used in the project:
+  - **1-ExploratoryPlot.py**: Generates exploratory vizualzations for data insights.
 
 ## Section 3 - Instructions for reproducing results
 
