@@ -73,16 +73,17 @@ DS-4002-Project-3/
 Follow the steps below to reproduce the results of this project: 
 ### Step 1 : Dataset Collection 
 - Download the fruit image data from [mendeley.data](https://data.mendeley.com/datasets/bdd69gyhv8/1). This dataset contains 16,000 images, documentaing 16 different fruits with varying freshness levels.
-- Download the images from each of the fruit categories, and then depending on the fruit presented in the image, place the downloaded image files in the DATA/ folder of the project in their own respective file. The images given in the dataset are pre-sorted based on fruit type, and if they were already classified as being fresh or spoiled.
-- 
+- Download the images from each of the fruit categories, and then depending on the fruit presented in the image, place the downloaded image files in the DATA/ folder of the project in their own respective file. The images given in the dataset are pre-sorted based on fruit type, and if they were classified as being fresh or spoiled.
 
-### Step 2 : Pre - Process images 
+### Step 2 : Exploratory Data Analysis 
 
-### Step 3 : Build and Train Model
+### Step 3 : Pre-Process Images
 
-### Step 4 : Evaluate Model
+## Step 4 : Build and Train Model
 
-### Step 5 : Evaluate Results 
+### Step 5 : Evaluate Model
+
+### Step 6 : Evaluate Results 
 
 ---
 
