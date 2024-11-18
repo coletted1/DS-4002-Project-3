@@ -1,3 +1,10 @@
+'''
+Fruit Image Exploratory Histograms
+    The purpose of this script is to generate initial exploratory plots for each fruit in the dataset. It generates histograms for each fruit that demonstrate the degrees of freshness
+    or spoiledness. 
+    To run this code, you need the cv2, os, numpy, and matplotlib libraries, as well as have the fresh and spoiled folders for each fruit downloaded in the specified folder.
+'''
+
 import cv2 #install using pip install opencv-python==4.5.5.64
 import os
 import numpy as np
