@@ -35,9 +35,10 @@ DS-4002-Project-3/
 │   ├── tamarillo
 │   │   ├── fresh
 │   │   └── spoiled
-│   └── tomato
-│       ├── fresh
-│       └── spoiled
+│   ├── tomato
+│   │   ├── fresh
+│   │   └── spoiled
+│   └── Data Appendix p3.pdf
 │
 ├── OUTPUT/
 │   ├── Analysis/
