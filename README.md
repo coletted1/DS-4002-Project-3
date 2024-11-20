@@ -87,7 +87,6 @@ Follow the steps below to reproduce the results of this project:
 
 ### Step 6 : Evaluate Results 
 
-By following these steps, you can reproduce the image-based model to determine fruit freshness.
 ---
 
 ## References 
