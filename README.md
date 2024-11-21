@@ -42,8 +42,11 @@ DS-4002-Project-3/
 │
 ├── OUTPUT/
 │   ├── Analysis/
-│   │   ├── 
-│   │   └── 
+|   |   ├── classified_images_grid_key.png
+|   |   ├── fresh_vs_spoiled_confusion_matrix.png
+|   |   ├── fruit_visualization.png
+│   │   ├── training_validation_accuracy.png
+│   │   └── training_validation_loss.png
 │   └── Exploratory/
 │       ├── banana_average_color_histogram.png
 │       ├── lemon_average_color_histogram.png
@@ -56,7 +59,7 @@ DS-4002-Project-3/
 │
 ├── SCRIPTS/
 │   ├── ExploratoryPlot.py
-│   └── 
+│   └── FruitFreshnessClassifier.ipynb
 │
 ├── LICENSE.md
 └── README.md
@@ -80,12 +83,26 @@ Follow the steps below to reproduce the results of this project:
 - To observe initial trends in the data, run the **1-ExploratoryPlot.py** script. This will output various histograms for early data analysis, including information on the color intensity distribution for both fresh and spoiled fruit across the different fruit types.
 
 ### Step 3 : Pre-Process Images
+- Pre-process images by resizing them to 224x224 pixels, normalizing the pixel values, and augmenting the data to increase robustness.
 
-### Step 4 : Build and Train Model
+### Step 4: Build and Train Model
+- Use the `FruitFreshnessClassifier.ipynb` notebook to:
+  - Load the dataset into training and validation sets.
+  - Fine-tune a pre-trained ResNet50 model for binary classification (fresh vs. spoiled).
+  - Save the trained model for evaluation.
 
-### Step 5 : Evaluate Model
+### Step 5: Evaluate Model
+- **Confusion Matrix**: Visualize classification performance with `fresh_vs_spoiled_confusion_matrix.png`.
+- **Training/Validation Metrics**: Review `training_validation_accuracy.png` and `training_validation_loss.png` for overfitting or convergence issues.
+- **Classified Images Grid**: Inspect `classified_images_grid_key.png` for correct/incorrect classifications and confidence scores.
+- **Per-Fruit Visualization**: Analyze `fruit_visualization.png` for performance on individual fruits.
+- **Key Metrics**: Summarize precision, recall, and F1-score from the classification report.
 
-### Step 6 : Evaluate Results 
+### Step 6: Visualize Results
+- Run the visualization function in `FruitFreshnessClassifier.ipynb` to:
+  - Display and save grids of classified images (correct and incorrect classifications).
+  - Include confidence scores to assess prediction certainty.
+- Outputs will be saved in the `OUTPUT/Analysis/` directory.
 
 ---
 
