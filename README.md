@@ -4,7 +4,7 @@
 
 The main software used for this project includes VS Code with Python. We used Python's PyTorch and TensorFlow libraries, an image based system used to build and train models for image based recognition and model optimization. 
 
-Most coding was performed on a Windows machine, with some portions done using a Mac.
+The coding for this project was performed on a Windows machine.
 
 ## Section 2 - Map of Documentation
 
@@ -47,7 +47,7 @@ DS-4002-Project-3/
 |   |   ├── fruit_visualization.png
 │   │   ├── training_validation_accuracy.png
 │   │   └── training_validation_loss.png
-│   └── Exploratory/
+│   └── exploratory/
 │       ├── banana_average_color_histogram.png
 │       ├── lemon_average_color_histogram.png
 │       ├── lulo_average_color_histogram.png
@@ -58,8 +58,8 @@ DS-4002-Project-3/
 │       └── tomato_average_color_histogram.png
 │
 ├── SCRIPTS/
-│   ├── ExploratoryPlot.py
-│   └── FruitFreshnessClassifier.ipynb
+│   ├── 1-ExploratoryPlot.py
+│   └── 2-FruitFreshnessClassifier.ipynb
 │
 ├── LICENSE.md
 └── README.md
@@ -67,10 +67,12 @@ DS-4002-Project-3/
 
 - **DATA/**: Contains the various image files used throughout the project, including the images sorted based on fruit type, and on a predetermined freshness level.
 - **OUTPUT/**:
-  - **Exploratory/**: Contains exploratory plots for each of the fruits based on color intensity from the fresh and spoiled fruits for initial data trends.
+  - **exploratory/**: Contains exploratory plots for each of the fruits based on color intensity from the fresh and spoiled fruits for initial data trends.
+  - **Analysis/**: Contains analysis plots and visualizations from the results of the modeling.
     
 - **SCRIPTS/**: Python scripts used in the project:
   - **1-ExploratoryPlot.py**: Generates exploratory vizualzations for data insights.
+  - **2-FruitFreshnessClassifier.ipynb**: Contains the code to train and test the image model.
 
 ## Section 3 - Instructions for reproducing results
 
@@ -86,7 +88,7 @@ Follow the steps below to reproduce the results of this project:
 - Pre-process images by resizing them to 224x224 pixels, normalizing the pixel values, and augmenting the data to increase robustness.
 
 ### Step 4: Build and Train Model
-- Use the `FruitFreshnessClassifier.ipynb` notebook to:
+- Use the **2-FruitFreshnessClassifier.ipynb** notebook to:
   - Load the dataset into training and validation sets.
   - Fine-tune a pre-trained ResNet50 model for binary classification (fresh vs. spoiled).
   - Save the trained model for evaluation.
@@ -99,7 +101,7 @@ Follow the steps below to reproduce the results of this project:
 - **Key Metrics**: Summarize precision, recall, and F1-score from the classification report.
 
 ### Step 6: Visualize Results
-- Run the visualization function in `FruitFreshnessClassifier.ipynb` to:
+- Run the visualization function in **2-FruitFreshnessClassifier.ipynb** to:
   - Display and save grids of classified images (correct and incorrect classifications).
   - Include confidence scores to assess prediction certainty.
 - Outputs will be saved in the `OUTPUT/Analysis/` directory.
